@@ -3,7 +3,7 @@ const pool = require('./connection');
 const { authenticateToken } = require('./middlewares/auth');
 
 const app = express();
-const port = 3000;
+const port = 3306;
 
 app.use(express.json());
 
